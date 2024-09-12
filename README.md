@@ -4,7 +4,10 @@
 
 ## CLI
 
-- [Cobra](https://github.com/spf13/cobra)
+- [Cobra](https://github.com/spf13/cobra) - [User guide](https://github.com/spf13/cobra/blob/main/site/content/user_guide.md)
+- [Cobra CLI](https://github.com/spf13/cobra-cli/tree/main)
+- [Viper (read cfg files)](https://github.com/spf13/viper)
+- [Tview (CLI UI)](https://github.com/rivo/tview)
 - [Bubble tea](https://github.com/charmbracelet/bubbletea)
 - [LipGloss](https://github.com/charmbracelet/lipgloss)
 
