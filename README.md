@@ -8,6 +8,8 @@
 - [Cobra CLI](https://github.com/spf13/cobra-cli/tree/main)
 - [Viper (read cfg files)](https://github.com/spf13/viper)
 - [Tview (CLI UI)](https://github.com/rivo/tview)
+- [Physics based animation in CLI](https://github.com/charmbracelet/harmonica/tree/master)
+- [CLI UI components](https://github.com/charmbracelet/bubbles)
 - [Bubble tea](https://github.com/charmbracelet/bubbletea)
 - [LipGloss](https://github.com/charmbracelet/lipgloss)
 
