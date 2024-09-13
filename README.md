@@ -1,5 +1,13 @@
 # Go resources
 
+## libraries
+
+- [Go dotenv](https://pkg.go.dev/github.com/lpernett/godotenv)
+- [Make http server or request endpoint (CRUD) to external URL](https://pkg.go.dev/net/http)
+- [URL parsing](https://pkg.go.dev/net/url)
+- [Handling JSON in Go](https://pkg.go.dev/encoding/json)
+- 
+
 ---
 
 ## CLI
