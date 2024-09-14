@@ -1,5 +1,17 @@
 # Go resources
 
+## Basic Go features
+
+- Go pass arguments to file
+
+```go
+for i, val := range os.Args{
+        fmt.Println!("i", i, "; val", val)
+    }
+```
+
+--
+
 ## libraries
 
 - [Go dotenv](https://pkg.go.dev/github.com/lpernett/godotenv)
