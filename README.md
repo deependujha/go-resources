@@ -2,15 +2,42 @@
 
 ## Basic Go features
 
-- Go pass arguments to file
+<details>
+  <summary>Go pass arguments to file</summary>
 
 ```go
 for i, val := range os.Args{
         fmt.Println!("i", i, "; val", val)
     }
 ```
+</details>
 
---
+<details>
+  <summary>Yield in go</summary>
+
+```go
+func YieldFunction() <-chan int {
+    ch := make(chan int)
+    go func() {
+        defer close(ch)
+        for i := 0; i < 10; i++ {
+            ch <- i // Yield data to the consumer
+        }
+    }()
+    return ch
+}
+
+func main() {
+    data := YieldFunction()
+    for val := range data {
+        // Process data concurrently
+        fmt.Println(val)
+    }
+}
+```
+</details>
+
+---
 
 ## libraries
 
