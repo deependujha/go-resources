@@ -39,6 +39,12 @@ func main() {
 
 ---
 
+## Cool CLI projects
+
+- [Melkey Go Blueprint](https://github.com/Melkeydev/go-blueprint)
+
+---
+
 ## libraries
 
 - [Go dotenv](https://pkg.go.dev/github.com/lpernett/godotenv)
