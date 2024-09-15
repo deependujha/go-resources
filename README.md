@@ -68,6 +68,12 @@ func main() {
 
 ---
 
+## WebDev (Backend)
+
+- [Go-Fiber](https://gofiber.io/)
+- [Go-fiber-postgres repository](https://github.com/deependujha/go-rest-api-with-fiber)
+- [Go GraphQL](https://gqlgen.com/)
+
 ## Publish Go package (cli/ library)
 
 - [Publish a module docs](https://go.dev/doc/modules/publishing)
