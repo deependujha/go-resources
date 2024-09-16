@@ -12,6 +12,8 @@ for i, val := range os.Args{
 ```
 </details>
 
+- [Go flag std package](https://pkg.go.dev/flag) [A youtube video for explanation](https://www.youtube.com/watch?v=jdKEGrjf4mw)
+
 <details>
   <summary>Yield in go</summary>
 
