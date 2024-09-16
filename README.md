@@ -53,7 +53,7 @@ func main() {
 - [Make http server or request endpoint (CRUD) to external URL](https://pkg.go.dev/net/http)
 - [URL parsing](https://pkg.go.dev/net/url)
 - [Handling JSON in Go](https://pkg.go.dev/encoding/json)
-- 
+- [Live reloading in Go (Air)](https://github.com/air-verse/air)
 
 ---
 
