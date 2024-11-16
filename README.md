@@ -1,4 +1,4 @@
-# Go resources
+# Go Codes
 
 ## Basic Go features
 
