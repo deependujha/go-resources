@@ -77,7 +77,7 @@ go install github.com/someuser/ext-go-executable
 
 ## `go mod tidy` command
 
-!!! info
+!!! quote ""
     - Removes Unused Dependencies:
     - Adds Missing Dependencies:
     - Updates go.sum
