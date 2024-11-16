@@ -1,12 +1,12 @@
 # Project information
 site_name: Go Codes 🧑🏻‍💻
-site_url: https://deependujha.github.io/go-resources/
+site_url: https://deependujha.github.io/go-codes/
 site_author: Deependu Jha
 site_description: >-
   This website contains helpful codes for go.
 # Repository
-repo_name: deependujha/go-resources
-repo_url: https://github.com/deependujha/go-resources
+repo_name: deependujha/go-codes
+repo_url: https://github.com/deependujha/go-codes
 
 # Copyright
 copyright: Copyright &copy; 2024 Deependu Jha
