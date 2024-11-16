@@ -128,3 +128,10 @@ nav:
         - Functions: 01-basics/02-essential-constructs/03-functions.md
         - Arrays & Slices: 01-basics/02-essential-constructs/04-arrays-and-slices.md
         - Structs, Methods & Enums: 01-basics/02-essential-constructs/05-structs-methods-and-enums.md
+        - Maps: 01-basics/02-essential-constructs/06-maps-in-go.md
+    - Advanced:
+      - Go Internals:
+        - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md
+      - Debugging and Profiling:
+        - pprof: 02-advanced/02-debugging-and-profiling/01-pprof.md
+        - Tracing: 02-advanced/02-debugging-and-profiling/02-tracing.md
