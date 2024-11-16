@@ -87,3 +87,13 @@ go install github.com/someuser/ext-go-executable
 - It ensures that your module's dependency list is accurate and minimal, reflecting only the libraries and versions you truly need.
 
 ---
+
+## `go install`
+
+To install a local binary package, use the `go install` command.
+
+It installs the executable binary in the `$GOPATH/bin` directory. Mostly `~/go/bin` directory.
+
+```bash
+go install
+```
