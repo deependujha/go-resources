@@ -61,18 +61,17 @@ go install github.com/someuser/ext-go-executable
 
 ## `go.mod` vs `go.sum`
 
-| Aspect |	go.mod | 	go.sum |
+| Aspect | go.mod | go.sum |
 | :--- | :--- | :--- |
-| Purpose |	Tracks direct dependencies and Go version.| 	Verifies and locks exact versions and hashes. |
-| Editable |	Yes (manually or by Go tools).| 	No (automatically maintained by Go tools). |
-| Contents |	Module names and versions.| 	Module names, versions, and their checksums. |
-| Scope |	Focuses on top-level dependencies.	| Includes transitive dependencies. |
+| Purpose | Tracks direct dependencies and Go version.| Verifies and locks exact versions and hashes. |
+| Editable | Yes (manually or by Go tools).| No (automatically maintained by Go tools). |
+| Contents | Module names and versions.| Module names, versions, and their checksums. |
+| Scope | Focuses on top-level dependencies. | Includes transitive dependencies. |
 
-**Best Practices**
-
-- Commit both files to version control to ensure a consistent build environment.
-- Regularly run `go mod tidy` to clean up unused dependencies and sync go.sum.
-- Use go.sum as a security feature—verify that dependencies haven’t been altered.
+!!! quote "Best Practices"
+    - Commit both files to version control to ensure a consistent build environment.
+    - Regularly run `go mod tidy` to clean up unused dependencies and sync go.sum.
+    - Use go.sum as a security feature—verify that dependencies haven’t been altered.
 
 ---
 
