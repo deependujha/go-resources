@@ -126,3 +126,4 @@ nav:
         - Variables: 01-basics/02-essential-constructs/01-variables.md
         - Conditional and Loops: 01-basics/02-essential-constructs/02-conditional-and-loops.md
         - Functions: 01-basics/02-essential-constructs/03-functions.md
+        - Arrays & Slices: 01-basics/02-essential-constructs/04-arrays-and-slices.md
