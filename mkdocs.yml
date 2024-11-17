@@ -132,6 +132,8 @@ nav:
     - Intermediate:
       - Concurrency:
         - Goroutines: 02-intermediate/01-concurrency/01-goroutine.md
+        - Contexts: 02-intermediate/01-concurrency/02-context-in-go.md
+        - Atomic Operations: 02-intermediate/01-concurrency/03-atomic-operations.md
     - Advanced:
       - Go Internals:
         - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md
