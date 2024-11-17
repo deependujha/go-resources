@@ -129,6 +129,7 @@ nav:
         - Arrays & Slices: 01-basics/02-essential-constructs/04-arrays-and-slices.md
         - Structs, Methods & Enums: 01-basics/02-essential-constructs/05-structs-methods-and-enums.md
         - Maps: 01-basics/02-essential-constructs/06-maps-in-go.md
+        - Struct tags: 01-basics/02-essential-constructs/07-struct-tags.md
     - Intermediate:
       - Concurrency:
         - Goroutines: 02-intermediate/01-concurrency/01-goroutine.md
