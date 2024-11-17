@@ -145,8 +145,9 @@ nav:
       - Error Handling: 02-intermediate/04-error-handling.md
       - Testing: 02-intermediate/05-testing.md
     - Advanced:
+      - Conditional Compilation: 03-advanced/01-conditional-compilation.md
       - Go Internals:
-        - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md
+        - Escape analysis: 03-advanced/02-go-internals/01-escape-analysis.md
       - Debugging and Profiling:
-        - pprof: 02-advanced/02-debugging-and-profiling/01-pprof.md
-        - Tracing: 02-advanced/02-debugging-and-profiling/02-tracing.md
+        - pprof: 03-advanced/03-debugging-and-profiling/01-pprof.md
+        - Tracing: 03-advanced/03-debugging-and-profiling/02-tracing.md
