@@ -133,6 +133,35 @@ fmt.Println(<-ch) // Prints 1
 fmt.Println(<-ch) // Prints 2
 ```
 
+#### Channel direction
+
+When using channels as function parameters, you can specify if a channel is meant to only send or receive values. This specificity increases the type-safety of the program.
+
+```go
+package main
+
+import "fmt"
+
+// channel is meant to only receive values
+func ping(pings chan<- string, msg string) {
+    pings <- msg
+}
+
+// channel is meant to only send values
+func pong(pings <-chan string, pongs chan<- string) {
+    msg := <-pings
+    pongs <- msg
+}
+
+func main() {
+    pings := make(chan string, 1)
+    pongs := make(chan string, 1)
+    ping(pings, "passed message")
+    pong(pings, pongs)
+    fmt.Println(<-pongs)
+}
+```
+
 ---
 
 ### **4. Select Statement**
