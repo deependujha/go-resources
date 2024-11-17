@@ -142,6 +142,8 @@ nav:
         - Generics: 02-intermediate/02-interface-generic-reflection/02-generics.md
         - Reflection: 02-intermediate/02-interface-generic-reflection/03-reflection.md
       - Standard Library: 02-intermediate/03-std-library.md
+      - Error Handling: 02-intermediate/04-error-handling.md
+      - Testing: 02-intermediate/05-testing.md
     - Advanced:
       - Go Internals:
         - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md
