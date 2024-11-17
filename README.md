@@ -1,5 +1,7 @@
 # Go Codes
 
+- Document you go code using [godoc](golang.org/x/tools/cmd/godoc)
+
 ## Basic Go features
 
 <details>
