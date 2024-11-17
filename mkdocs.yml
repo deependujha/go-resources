@@ -141,6 +141,7 @@ nav:
         - Interfaces: 02-intermediate/02-interface-generic-reflection/01-interfaces.md
         - Generics: 02-intermediate/02-interface-generic-reflection/02-generics.md
         - Reflection: 02-intermediate/02-interface-generic-reflection/03-reflection.md
+      - Standard Library: 02-intermediate/03-std-library.md
     - Advanced:
       - Go Internals:
         - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md
