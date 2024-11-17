@@ -152,3 +152,5 @@ nav:
       - Debugging and Profiling:
         - pprof: 03-advanced/03-debugging-and-profiling/01-pprof.md
         - Tracing: 03-advanced/03-debugging-and-profiling/02-tracing.md
+    - Cool packages:
+      - Flags: 04-cool-packages/01-flags.md
