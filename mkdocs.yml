@@ -137,6 +137,10 @@ nav:
         - Fan-out & Fan-in: 02-intermediate/01-concurrency/04-fan-out-and-fan-in-pattern.md
         - Synchronization: 02-intermediate/01-concurrency/05-synchronization.md
         - Deadlock & Race Conditions: 02-intermediate/01-concurrency/06-deadlock-and-race-conditions.md
+      - Interface, Generics, Reflection:
+        - Interfaces: 02-intermediate/02-interface-generic-reflection/01-interfaces.md
+        - Generics: 02-intermediate/02-interface-generic-reflection/02-generics.md
+        - Reflection: 02-intermediate/02-interface-generic-reflection/03-reflection.md
     - Advanced:
       - Go Internals:
         - Escape analysis: 02-advanced/01-go-internals/01-escape-analysis.md

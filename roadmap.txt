@@ -22,25 +22,6 @@ Here’s a structured breakdown of the topics we should cover in your **Concurre
 
 ---
 
-## **Concurrency Topics**
-
-3. **Synchronization**  
-   - `sync.WaitGroup` for managing multiple goroutines.
-   - Mutexes (`sync.Mutex`, `sync.RWMutex`).
-   - `sync.Once` for one-time initialization.
-
-5. **Advanced Concurrency Patterns**  
-   - Rate Limiting using `time.Ticker`.
-
-7. **Timers and Tickers**  
-   - `time.After`, `time.Tick`, `time.NewTicker`.
-
-8. **Deadlock and Race Conditions**  
-   - Identifying and preventing them.
-   - Tools like `-race` flag.
-
----
-
 ## **Intermediate Category**
 This category will dive into Go’s more complex but widely-used features:
 
